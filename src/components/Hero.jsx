@@ -4,13 +4,10 @@ export default function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero-banner">
-        <h1>Backroads app</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          explicabo debitis est autem dicta.
-        </p>
-        <a href="#tours" className="btn hero-btn">
-          explore tours
+        <h1>vending service</h1>
+        <p>Get the perfect vending machines for your business.</p>
+        <a href="#machines" className="btn hero-btn">
+          explore vending machines
         </a>
       </div>
     </section>

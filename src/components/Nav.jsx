@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.svg";
+
 import { pageLinks, socialLinks } from "../data";
 import SocialLinksCompo from "./SocialLinksCompo";
 
@@ -8,7 +8,7 @@ export default function Nav() {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} className="nav-logo" alt="backroads" />
+          <h4 className="logo">Lulu Vending</h4>
           <button type="button" className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </button>

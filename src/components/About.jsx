@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../images/about.jpeg";
+import customer from "../images/customer.jpeg";
 import Title from "./Title";
 
 const About = () => {
@@ -9,20 +9,29 @@ const About = () => {
 
       <div className="section-center about-center">
         <div className="about-img">
-          <img src={about} className="about-photo" alt="awesome beach" />
+          <img src={customer} className="about-photo" alt="customer" />
         </div>
         <article className="about-info">
           <h3>explore the difference</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+            At Lulu Vending, our mission is to provide our customers with
+            convenient access to a variety of high-quality snacks and beverages,
+            while delivering exceptional customer service and reliability.
+            <p>
+              Our machines are state-of-the-art and feature the latest in
+              vending machine technology. Each machine is equipped with an
+              intuitive touchscreen interface that makes it easy to browse our
+              selection of products and make a purchase. Our machines are also
+              equipped with advanced payment systems, including cash, credit
+              card, and mobile payment options, so you can pay with your
+              preferred method.
+            </p>
+            <p>
+              Contact us today to learn more about our vending machine services
+              and how we can help meet your needs.
+            </p>
           </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
-          </p>
+
           <a href="#" className="btn">
             read more
           </a>

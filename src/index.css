@@ -11,7 +11,7 @@ Variables
   --clr-primary-3: hsl(185, 81%, 29%);
   --clr-primary-4: hsl(184, 77%, 34%);
   /* primary/main color */
-  --clr-primary-5: hsl(185, 62%, 45%);
+  --clr-primary-5: hsl(206, 67%, 62%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(185, 57%, 50%);
   --clr-primary-7: hsl(184, 65%, 59%);
@@ -165,6 +165,13 @@ p {
   }
 }
 
+.logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(206, 67%, 62%);
+}
+
 /*
 =============== 
 Hero
@@ -178,8 +185,8 @@ Hero
   align-items: center;
   background-image: linear-gradient(
       to bottom,
-      hsla(184, 91%, 17%, 0.65),
-      hsla(184, 77%, 34%, 0.65)
+      hsla(195, 62%, 66%, 0.6),
+      hsla(196, 43%, 38%, 0.6)
     ),
     url(./images/main.jpeg);
   background-size: cover;
@@ -328,67 +335,67 @@ Featured Tours
 ===============
 */
 
-.tour-card {
+.machine-card {
   transition: var(--transition);
   background: var(--clr-grey-10);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
 }
-.tour-card:hover {
+.machine-card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transform: scale(1.02);
 }
-.tour-img-container {
+.machine-img-container {
   position: relative;
 }
-.tour-img {
-  height: 15rem;
+.machine-img {
+  height: 35rem;
   object-fit: cover;
 }
-.tour-date {
+.machine-date {
   position: absolute;
   right: 0;
   bottom: 0;
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-1);
+  background: orangered;
+  color: #fff;
   text-transform: capitalize;
   padding: 0.25rem 0.5rem;
   margin-bottom: 0;
 }
-.tour-info {
+.machine-info {
   padding: 1.25rem 1.5rem;
 }
 /* additional css for different layout*/
-.tour-title {
+.machine-title {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.tour-title p,
-.tour-title h4 {
+.machine-title p,
+.machine-title h4 {
   margin-bottom: 0.75rem;
   line-height: 1.25;
 }
-.tour-title p {
+.machine-title p {
   color: var(--clr-grey-7);
 }
 /* end of additional css for different layout*/
-.tour-footer {
+.machine-footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
-.tour-footer p {
+.machine-footer p {
   line-height: 0;
   margin-bottom: 0;
   text-transform: capitalize;
   color: var(--clr-primary-5);
 }
-.tour-footer p span {
+.machine-footer p span {
   margin-right: 0.25rem;
 }
-.tour-btn {
+.machine-btn {
   text-align: center;
 }
 @media screen and (min-width: 768px) {

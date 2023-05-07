@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
-import Tours from "./components/Tours";
+import Machines from "./components/Machines";
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
       <Hero />
       <About />
       <Services />
-      <Tours />
+      <Machines />
       <Footer />
     </React.Fragment>
   );
